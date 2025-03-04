@@ -1,6 +1,6 @@
 # Loyalty Service
 
-This Node.js service implements a customer loyalty program for Whiteaway. It supports:
+This Node.js service implements an event driven customer loyalty program. It supports:
 
 - **Loyalty Points:** Earn 1 point per 50 DKK spent.
 - **Points Expiry:** Points expire 6 months after being awarded.
