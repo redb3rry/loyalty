@@ -12,8 +12,6 @@ Automated tests are included and cover quite a bit, although as many say, there'
 
 ## Endpoints
 
-As described in the Case PDF:
-
 1. **Event Webhook** – `POST /webhook`  
    Accepts JSON events (e.g. `CustomerCreated`, `CustomerDeleted`, `OrderPlaced`, `OrderReturned`, `OrderCanceled`).  
    Events are processed idempotently using a sequence number and entity key.
